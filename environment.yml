@@ -3,3 +3,8 @@ chanels:
   - conda-forge
 dependencies:
   - python=3
+  - numpy
+  - pip
+  - pip:
+    - pandas
+    - matplotlib
