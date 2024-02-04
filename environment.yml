@@ -2,9 +2,7 @@ name: pythonkursjupyter
 chanels:
   - conda-forge
 dependencies:
-  - python=3
-  - numpy
+  - python=3.9
   - pip
   - pip:
-    - pandas
-    - matplotlib
+    - matplotlib=3.8
